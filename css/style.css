@@ -2836,6 +2836,17 @@ a.view-details-link:hover span {
 
 
 /* CUSTOM */
-a.footer-text-hover:hover {
-    
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+
+.text-orange{
+    color: #F7931E;
+}
+.text-purple{
+    color: #6a06ad;
 }
