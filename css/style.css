@@ -72,6 +72,15 @@ input[type=number]::-webkit-outer-spin-button {
     margin: 0; 
 }
 
+.btn-nav{
+    background: transparent;
+        -o-transition: border-bottom .3s ease-in-out, background .3s ease-in-out, padding .3s ease-in-out;
+        -webkit-transition: border-bottom .3s ease-in-out, background .3s ease-in-out, padding .3s ease-in-out;
+        -moz-transition: border-bottom .3s ease-in-out, background .3s ease-in-out, padding .3s ease-in-out;
+        transition: border-bottom .3s ease-in-out, background .3s ease-in-out, padding .3s ease-in-out;
+        -webkit-backface-visibility: hidden;
+}
+
 .text-orange{
     color: #F7931E;
 }
@@ -654,7 +663,7 @@ select.form-control.has-value{
 
 @media (min-width: 320px) and (max-width: 992px) {
     .navbar {
-        background-image: linear-gradient(to left, #C66DB6, #C05EAF, #BA4EA7, #B33C9E, #AB2994) !important;
+        background-image: linear-gradient(to left, rgba(201, 162, 202, 1), rgba(168, 107, 170, 1), rgba(145, 80, 153, 1), rgba(130, 68, 143, 1), rgba(100, 43, 124, 1)) !important;
         padding: .85rem 1rem !important;
     }
     .menu li{
