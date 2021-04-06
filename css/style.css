@@ -366,6 +366,14 @@ a:hover{
     /* -webkit-box-shadow: none; */
     /* box-shadow: none; */
 }
+.blog-footer:hover{
+    /* background: #1ca84f; */
+    /* color: yellow; */
+    transform: scale(1.1) translateY(-4px) translateZ(20px) ;
+    transition-duration: .3s;
+    /* -webkit-box-shadow: none; */
+    /* box-shadow: none; */
+}
 
 .outline-btn{
     border-radius: 30px;
