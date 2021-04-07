@@ -398,13 +398,14 @@ a:hover{
 }
 .solid-white-btn{
     background: #ffffff;
-    border-color: #ffffff;
+    border-color: white;
     color: #642B7C;
     border-radius: 30px;
 }
 .solid-white-btn:hover{
     background: #F7931E;
     color: #ffffff;
+    border-color: #F7931E;
 }
 .outline-white-btn{
     border-radius: 30px;
