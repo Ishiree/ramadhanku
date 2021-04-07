@@ -360,7 +360,7 @@ a:hover{
 }
 .solid-btn-orange:hover{
     background: #1ca84f;
-    color: yellow;
+    color: white;
     transform: scale(1) translateY(-4px) translateZ(20px) ;
     transition-duration: .3s;
     /* -webkit-box-shadow: none; */
@@ -369,7 +369,7 @@ a:hover{
 .blog-footer:hover{
     /* background: #1ca84f; */
     /* color: yellow; */
-    transform: scale(1.1) translateY(-4px) translateZ(20px) ;
+    transform: scale(1.1) translateY(-4px) translateZ(20px);
     transition-duration: .3s;
     /* -webkit-box-shadow: none; */
     /* box-shadow: none; */
@@ -403,7 +403,7 @@ a:hover{
     border-radius: 30px;
 }
 .solid-white-btn:hover{
-    background: transparent;
+    background: #F7931E;
     color: #ffffff;
 }
 .outline-white-btn{
